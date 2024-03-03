@@ -2,9 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-    
-    
+}  
+
+body{
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0 auto;
+    font-family: 'Lato';
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 100vh;  
+    padding-bottom: 150px;
+
 }
 
 /* Header */
@@ -20,33 +32,26 @@
     color: #000 !important;
 }
 
-/* .carousel-item {
-    height: 500px;
-    width: 100%;
-} */
 
+/* carrusel */
 .slide img {
- height: 600px;
- margin-bottom: 20px;
+height: 600px;
+margin-bottom: 20px;
 
 }
 
-/* .card img {
-        height: 250px;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
 
-} */
-
+/* section */
 .card img{
   height:300px;
     
 }
 
 .card {
-    background-color: rgb(230, 149, 43);
+    background-color: rgba(230, 149, 43, 0.909);
     color: #fff !important;
+    
+
 }
 
 .card:hover {
@@ -58,21 +63,70 @@
 }
 
 
+/* articulo */
 .nleft{
-    background-image: url(../img/embrague.jpg);
+    opacity: 0.9;
     background-size: cover;
     background-position: center;
-    height: 350px;
-    margin-top: 40px;
+    height: 450px;
+    margin-top: 60px;
 
 }
 
 .nright{
-    margin-top: 40px;
+    margin-top: 60px;
+    background-color: rgba(12, 1, 1, 0.429);
+    color: #fff;
+
+}
+
+.price{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.btn-dark:hover {
+    color:   rgb(230, 149, 43);
 }
 
 
+/* Footer*/
 
+footer{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    }
+    
+
+    footer p{
+        margin-bottom: 20px;
+    }
+
+    footer .redes a{
+        text-decoration: none;
+    }
+    
+    footer .redes i{
+        color: orange;
+        font-size: 40px;
+        letter-spacing: 30px;
+    }
+
+    footer .redes i:hover{
+        color: #fff;
+    }
+
+
+
+
+    /* CSS Primera Entrega */
 /* 
 .img-titulo{
     padding: 7em;
@@ -120,17 +174,6 @@ a{
         stroke: #fff;
     } */
 
-body{
-    margin: 0 auto;
-    font-family: 'Lato';
-    color: #333;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    min-height: 100vh;  
-    padding-bottom: 150px;
-
-}
 
 /* .plantillas{
     padding-top: 10px;
@@ -197,18 +240,15 @@ padding: 50px 50px 50px 50px;
     transform: scale(1.2);
 } */
 
-.info-product{
+/* .info-product{
     padding: 40px 30px;
     line-height: 2;
     display: flex;
     flex-direction: column;
     gap: 15px;
-}
+} */
 
-.price{
-    font-size: 18px;
-    font-weight: 900;
-}
+
 
 /* .info-product a{
     border: none;
@@ -223,7 +263,7 @@ padding: 50px 50px 50px 50px;
 } */
 
 
-form{
+/* form{
     border-radius: 3px;
     color: #fff;
     font-size: 20px;
@@ -232,7 +272,7 @@ form{
     width: 300px;
     background-color: rgb(230, 149, 43);
 }
-
+ */
 
 
 /* .field{
@@ -253,36 +293,3 @@ form{
     
 } */
 
-
-/* Footer*/
-
-footer{
-    background-color: #000;
-    color: #fff;
-    width: 100%;
-    padding: 15px;
-    margin-top: 20px;
-    text-align: center;
-    font-size: 15px;
-    position: absolute;
-    bottom: 0;
-    }
-    
-
-    footer p{
-        margin-bottom: 20px;
-    }
-
-    footer .redes a{
-        text-decoration: none;
-    }
-    
-    footer .redes i{
-        color: orange;
-        font-size: 40px;
-        letter-spacing: 30px;
-    }
-
-    footer .redes i:hover{
-        color: #fff;
-    }
