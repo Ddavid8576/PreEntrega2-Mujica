@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}  
+}
 
-body{
+body {
     background-image: url(../img/fondo.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -14,57 +14,76 @@ body{
     display: flex;
     flex-direction: column;
     position: relative;
-    min-height: 100vh;  
+    min-height: 100vh;
     padding-bottom: 150px;
 
 }
 
 /* Header */
-.navbar{
-    background-color:   rgb(230, 149, 43);
+.navbar {
+    background-color: rgba(230, 149, 43, 0.689);
 }
 
-.nav-link{
+.nav-link {
     color: #fff !important;
     font-size: 20px;
+    text-shadow: 0 0 5px #000;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: #000 !important;
+    font-weight: 300;
+
 }
 
 
 /* carrusel */
 .slide img {
-height: 600px;
-margin-bottom: 20px;
+    height: 600px;
+
 
 }
 
 
 /* section */
-.card img{
-  height:300px;
-    
+h4{
+    text-align: center;
+    background-color: rgba(230, 149, 43, 0.689);
+    padding: 30px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+    margin-bottom: 20px;
+}
+.card img {
+    height: 300px;
+
 }
 
 .card {
-    background-color: rgba(230, 149, 43, 0.909);
+    background-color: rgba(230, 149, 43, 0.737);
     color: #fff !important;
     
+
 
 }
 
 .card:hover {
     transform: scale(1.1);
-}
-
-.card:hover{
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.70);
 }
 
+.card:hover h5{
+    color: #000;
+    font-weight: bold;
+    
+}
+
+
 
 /* articulo */
-.nleft{
+.nleft {
     opacity: 0.9;
     background-size: cover;
     background-position: center;
@@ -73,27 +92,31 @@ margin-bottom: 20px;
 
 }
 
-.nright{
+.nright {
     margin-top: 60px;
     background-color: rgba(12, 1, 1, 0.429);
     color: #fff;
 
 }
 
-.price{
+.descripcion li{
+    font-size: 20px;
+}
+
+.price {
     font-size: 20px;
     font-weight: 900;
 }
 
 .btn-dark:hover {
-    color:   rgb(230, 149, 43);
+    color: rgb(230, 149, 43);
 }
 
 
 /* Footer*/
 
-footer{
-    background-color: #000;
+footer {
+    background-color: rgba(0, 0, 0, 0.895);
     color: #fff;
     width: 100%;
     padding: 15px;
@@ -102,31 +125,31 @@ footer{
     font-size: 15px;
     position: absolute;
     bottom: 0;
-    }
-    
-
-    footer p{
-        margin-bottom: 20px;
-    }
-
-    footer .redes a{
-        text-decoration: none;
-    }
-    
-    footer .redes i{
-        color: orange;
-        font-size: 40px;
-        letter-spacing: 30px;
-    }
-
-    footer .redes i:hover{
-        color: #fff;
-    }
+}
 
 
+footer p {
+    margin-bottom: 20px;
+}
+
+footer .redes a {
+    text-decoration: none;
+}
+
+footer .redes i {
+    color: orange;
+    font-size: 40px;
+    letter-spacing: 30px;
+}
+
+footer .redes i:hover {
+    color: #fff;
+}
 
 
-    /* CSS Primera Entrega */
+
+
+/* CSS Primera Entrega */
 /* 
 .img-titulo{
     padding: 7em;
@@ -292,4 +315,3 @@ padding: 50px 50px 50px 50px;
     cursor: pointer;
     
 } */
-
